@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+}
+#cad{
+    display: none;
+}
+.msg{
+    border: solid 3px green;
+    display: flex;
+    background-color:rgb(108, 238, 108) ;
+    justify-content: center;
+    opacity: 0.9;
+    visibility: visible;
+    transition: opacity 0.5s ease,visibility 0s 1.3s;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.msg h3{
+    color: rgb(4, 94, 4);
+}
+.erro{
+    display: flex;
+    justify-content: center;
+    border: 3px solid rgb(218, 8, 8);
+    background-color: rgb(245, 79, 79);
+    opacity: 0.9;
+    visibility: visible;
+    transition: opacity 0.5s ease,visibility 0s 1.3s;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.erro h3{
+    color: rgb(175, 1, 1);
+}
+header{
+    background-color: #2d3436;
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px ;
+    color: #a29bfe;
+}
+footer{
+    background-color: #2d3436;
+    height: 12vh;
+}
+header .logo{
+    font-size: 25px;
+    margin-left: 10px;
+}
+header .conf{
+    font-size: 25px;
+    margin-right: 10px;
+}
+.cont{
+    background-color: #a29bfe;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logg{
+    background-color: #2d3436;
+    gap: 10px;
+    color: #d1dadd ;
+    border: #d1dadd 1px solid;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    padding: 30px;
+}
+.logg input{
+    border: none;
+    border-bottom: solid 1px #d1dadd;
+    background-color: transparent;
+    margin-left: 5px;
+    padding: 2px;
+    color: #d1dadd;
+    outline: 0;
+    transition: padding 0.2s ease;
+    font-size: 15px;
+}
+.logg input:focus{
+    border-bottom: #a29bfe solid 2px;
+    padding: 3px;
+    color: #a29bfe;
+}
+.cont .cont-opc{
+    display: flex;
+    justify-content: space-around;
+}
+.cont-opc button{
+    border: #d1dadd solid 1px;
+    border-radius: 4px;
+    background-color: #2d3436;
+    color: #a29bfe;
+    padding: 5px;
+    cursor: pointer;
+    transition: padding 0.2s, color 1s, background-color 1s;
+}
+.cont-opc button:hover{
+    border: #d1dadd solid 1px;
+    color: #d1dadd;
+    background-color: #a29bfe;
+    padding: 6px;
+}
+
